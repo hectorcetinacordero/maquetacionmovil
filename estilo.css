@@ -1,0 +1,377 @@
+/* naranja =   color: #d43636; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 700px;
+  background-image: url(imagenes/foto-slide1.jpg);
+  background-size: cover; /* widthscreen  */
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+#nombre {
+  color: white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+h3 {
+  font-size: 20px;
+}
+.naranja {
+  color: #d43636;
+}
+#arriba {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#arriba figure {
+  width: 80px;
+}
+#arriba figure img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+nav {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+#menu {
+  display: none;
+  color: #d43636;
+}
+#acercademi {
+  padding: 15px 15px;
+}
+.titulo {
+  border-left: 7px #d43636 solid;
+}
+.titulo h2 {
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+.titulo p {
+  padding-top: 3px;
+  padding-left: 15px;
+}
+.titulo hr {
+  border: 0;
+  height: 2px;
+  background-color: #d43636;
+  width: 100px;
+}
+.infopersonal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.infopersonal figure {
+  max-width: 400px;
+  border-radius: 5px;
+  border: 1px #999 solid;
+  padding: 5px 5px 0px 5px;
+}
+.infopersonal figure img {
+  width: 100%;
+  object-fit: cover;
+}
+.infopersonal article {
+  max-width: 750px;
+}
+.infopersonal h3 {
+  padding-bottom: 15px;
+}
+.infopersonal h2 {
+  line-height: 34px;
+  padding-bottom: 15px;
+}
+.infopersonal p {
+  padding-bottom: 10px;
+}
+.infopersonal hr {
+  width: 95%;
+  margin: auto;
+}
+.datospersonales {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.negritas {
+  font-weight: bold;
+}
+.btn_naranja {
+  border-radius: 60px;
+  background-color: #d43636;
+  border: 1px #d43636 solid;
+  color: white;
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.btn_blanco {
+  border-radius: 60px;
+  background-color: white;
+  border: 1px #999 solid;
+  color: #333;
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.gris {
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+.programas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.programas h3 {
+  padding: 15px 0px;
+}
+.programas p {
+  font-size: 14px;
+}
+.programas article {
+  background-color: white;
+  border: 1px #ccc solid;
+  text-align: center;
+  padding: 30px;
+  width: 305px;
+  margin-bottom: 15px;
+}
+.datospersonales .redes a {
+  text-decoration: none;
+  color: #333;
+}
+.calltoaction {
+  background-color: #333;
+  color: white;
+  padding: 30px 15px;
+}
+.texto h2 {
+  padding: 15px 0px;
+}
+.texto p {
+  padding-bottom: 15px;
+}
+#cont_call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portafolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.portafolio a {
+  opacity: 1;
+  transition: all 0.5s;
+}
+.portafolio a:hover {
+  opacity: 0.5;
+}
+.portafolio figure {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+.portafolio figure img {
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+input {
+  border-radius: 5px;
+  border: 1px #999 solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+textarea {
+  border-radius: 5px;
+  border: 1px #999 solid;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  min-height: 200px;
+  resize: none;
+  font-family: "Montserrat", sans-serif;
+}
+footer {
+  padding: 15px;
+  background-color: #333;
+  color: white;
+}
+footer a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+footer a i {
+  color: #d43636;
+  font-size: 40px;
+}
+footer a p {
+  padding: 15px;
+}
+.localizacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+footer hr {
+  width: 95%;
+  height: 3px;
+  border: 0px;
+  background-color: #444;
+  margin: auto;
+}
+.redesociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconofooter i {
+  font-size: 30px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 480px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    width: 100%;
+    display: none;
+  }
+  nav div {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  nav a {
+    width: 100%;
+    border-bottom: 1px white dotted;
+  }
+  .infopersonal figure {
+    display: none;
+  }
+  #arriba figure {
+    display: none;
+  }
+  #arriba {
+    width: 95%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  #menu {
+    display: block;
+  }
+  #acercademi {
+    padding: 20px 10px;
+  }
+  .infopersonal h3 {
+    padding-top: 15px;
+  }
+  .datospersonales {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .datospersonales .nombre {
+    text-align: center;
+  }
+  .datospersonales .redes {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .programas {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #cont_call {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .texto p {
+    text-align: center;
+  }
+  .portafolio {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+  }
+  .localizacion {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  footer a {
+    margin-bottom: 15px;
+  }
+  .redesociales {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .iconofooter {
+    margin-bottom: 15px;
+  }
+}
