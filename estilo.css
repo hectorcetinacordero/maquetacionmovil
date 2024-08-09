@@ -285,6 +285,20 @@ footer hr {
   font-size: 30px;
   margin-right: 20px;
 }
+.btn_url {
+  padding: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+.btn_url:hover {
+  margin-top: 10px;
+}
+.btn_url::before:hover {
+  content: "[ ";
+}
 @media screen and (max-width: 480px) {
   header {
     padding: 20px;
