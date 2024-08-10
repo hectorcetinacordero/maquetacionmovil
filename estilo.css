@@ -290,7 +290,7 @@ footer hr {
   margin-top: 0px;
   display: inline-block;
   text-decoration: none;
-  color: #ffd000;
+  color: green;
   transition: all 0.5s;
 }
 .btn_url:hover {
